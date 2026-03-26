@@ -1,0 +1,30 @@
+#include <iostream>
+#include <cstdlib>
+#include <string>
+
+using namespace std;
+
+// Main Program
+int main() {
+    system("cls"); // membersihkan layar (Windows)
+
+    string nama;
+    int umur;
+
+    // Input nama (bisa dengan spasi)
+    cout << "Nama : ";
+    getline(cin, nama);
+
+    // Input umur
+    cout << "Umur : ";
+    cin >> umur;
+
+    // Output
+    cout << endl;
+    cout << "Ilmu" << endl;
+    cout << "Komputer" << endl;
+    cout << "Nama saya: " << nama << endl;
+    cout << "Umur saya: " << umur << endl;
+
+    return 0;
+}
